@@ -26,7 +26,7 @@ nano  lcd_ip.py
 ```
 run
 ```
-python lcd_ip.py
+sudo python lcd_ip.py
 ```
 
 Start on boot:
