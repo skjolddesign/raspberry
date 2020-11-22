@@ -30,7 +30,7 @@ sudo python lcd_ip.py
 ```
 press Ctrl+c to escape python.
 
-Start on boot:
+## Start on boot:
 open lcd.service and insert service code. check your path.
 ```
 sudo nano /lib/systemd/system/lcd.service
