@@ -1,5 +1,5 @@
 # Readme
-i2c lcd 16x2 display for Armbian on Orange Pi Zero
+This code will show ip on i2c lcd 16x2 display for Armbian on Orange Pi Zero
 Pins: GND 5V SDA SCK
 
 ## Setup
