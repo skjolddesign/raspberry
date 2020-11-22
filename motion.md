@@ -1,5 +1,5 @@
 ## Ip camera
-- Turn your Armbian and usb camera to a ip camera with Motion.
+- This is a complete walkthroug to turn your Armbian and usb camera to a ip camera with Motion.
 - Tested on Orange Pi Zero with image: Armbian_5.90_Orangepizero_Ubuntu_bionic_next_4.19.57.img.
 - Source info:  https://www.instructables.com/How-to-Make-Raspberry-Pi-Webcam-Server-and-Stream-/
 - After you are done you find camera on port 8080 or 8081.
