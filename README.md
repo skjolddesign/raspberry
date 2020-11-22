@@ -44,7 +44,7 @@ sudo nano /lib/systemd/system/lcd.service
  [Install]
  WantedBy=multi-user.target
 ```
-set permission and start service:
+set permission and start service: NOTE, IP CAN TAKE 60 SECONDS TO SHOW UP ON DISPLAY
 ```
 sudo chmod 644 /lib/systemd/system/lcd.service
 sudo systemctl daemon-reload
