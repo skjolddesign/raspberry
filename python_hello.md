@@ -1,10 +1,17 @@
 # Shows how to create a simple python hello world program.
-
-- mkdir python
-- cd python
-- nano hello.py
-add this to hello.py:
+create dir and new file:
+```
+mkdir python
+cd python
+nano hello.py
+```
+add code to hello.py:
+```
 #!/usr/bin/env python
 print("Hello, world!")
+```
+make file executable and run:
+```
 chmod +x hello.py
 python hello.py
+```
