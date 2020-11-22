@@ -14,7 +14,7 @@ get code and tools:
 wget https://raw.githubusercontent.com/skjolddesign/raspberry/main/lcd_ip.py
 sudo apt-get install -y i2c-tools python-smbus
 ```
-get i2c address of display from bus 0:
+get i2c address of display from bus 0 (you should see 27):
 ```
 sudo i2cdetect -y 0
 ```
