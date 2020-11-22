@@ -6,14 +6,16 @@
 # /_/|_/_/  /_/___/ .__/\_, /
 #                /_/   /___/
 #
-#  lcd_i2c.py
+#  lcd_ip.py
 #  LCD test script using I2C backpack.
 #  Supports 16x2 and 20x4 screens.
 #
-# Author : Matt Hawkins
-# Date   : 20/09/2015
+# Author : Per Emil Skjold
+# Date   : 22/11/2020
 #
 # http://www.raspberrypi-spy.co.uk/
+# find install notes and auto start at:
+# https://github.com/skjolddesign/raspberry
 #
 # Copyright 2015 Matt Hawkins
 #
