@@ -3,7 +3,7 @@ This code will show ip on i2c lcd 16x2 display for Armbian on Orange Pi Zero
 Pins: GND 5V SDA SCK
 
 ## Setup
-Activate i2c0:
+Activate i2c bus 0:
 ```
 sudo armbian-config
 sudo adduser myuser i2c
@@ -14,9 +14,9 @@ get code and tools:
 wget https://raw.githubusercontent.com/skjolddesign/raspberry/main/lcd_ip.py
 sudo apt-get install -y i2c-tools python-smbus
 ```
-get i2c address of display:
+get i2c address of display from bus 0:
 ```
-sudo i2cdetect -y 0 (scans i2c0 for addresses, you should see ex 27)
+sudo i2cdetect -y 0
 ```
 check i2c_address and bus number in python code:
 ```
