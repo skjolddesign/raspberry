@@ -1,6 +1,6 @@
 # LCD_IP
 This code will show ip on i2c lcd 16x2 display for Armbian on Orange Pi Zero
-Pins: GND 5V SDA SCK
+Pins: GND 5V SDA/PA12 SCK/PA11
 
 ## Setup
 Activate i2c bus 0 (i2c0):
