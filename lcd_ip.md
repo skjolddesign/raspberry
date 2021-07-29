@@ -40,7 +40,7 @@ sudo nano /lib/systemd/system/lcd.service
 
  [Service]
  Type=simple
- ExecStart=/usr/bin/python /home/myuser/lcd_ip.py > /home/myuser/lcd.log 2>&1
+ ExecStart=/usr/bin/python /home/yourUserNameHere/lcd_ip.py > /home/yourUserNameHere/lcd.log 2>&1
 
  [Install]
  WantedBy=multi-user.target
